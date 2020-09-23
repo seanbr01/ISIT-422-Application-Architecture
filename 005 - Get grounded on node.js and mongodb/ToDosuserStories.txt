@@ -1,0 +1,12 @@
+Vision:  I want a cloud app that I can access from my PC or Phone where I can keep a list of things I need to get done.
+
+US1- As a user, I need to be able to add new ToDo's  so that I can add things as I think of them.
+US2- As a user, I need each todo to store a title so that I can scan a list and quickly remember each item.
+US3- As a user, I need to be able to enter details for each today so that I have a place to store all the particulars.
+US4- As a user, I need to be able to assign a priority to each ToDo so that I can make sure to focus on the important ones.
+US5- As a user, I need to be able to access my ToDo list from any computer or my phone.
+US6- As a user, I need to be able to mark a ToDo as "Done" so that I know I am done with that one.
+US7- As a user, I need to be able to delete a ToDo so that if I decide not to do it, or it is done and old, I can remove the clutter.
+US8- As a xxx, I need to be able to see my list of ToDo's, sorted by "Done" or not  so that I can stay on top of things.
+US9- As a user, I need the display to be easy top read and pleasant to look at so that I enjoy using my app.
+US10- As a user, I need the ToDo data to be persistently stored so that no hardware failure will cause me to lose my data

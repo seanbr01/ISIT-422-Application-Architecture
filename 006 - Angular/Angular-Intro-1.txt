@@ -1,0 +1,39 @@
+
+These slides were authored using    bckurtfriedrich@gmail.com
+
+
+https://docs.google.com/presentation/d/15l-jKz7Koiy0HwROuUShxd6cU1Hy9AeCN8crRe5w83k/edit?usp=sharing
+
+https://docs.google.com/presentation/d/1CJBdy8FA9z8w-Stc0riNCiDSGHD06V4q7287dHY3mtY/edit?usp=sharing
+
+Now we will marry out angular front end to our node backend.
+
+
+=========================
+
+random commands to help my memory:
+
+
+   ng generate component messages
+
+   ng generate service message
+
+  ng serve --open          // start the app   serveSPACE Dash Dash open
+  e.g.  angular-tour-of-heroes$ ng serve --open
+
+
+  ng generate module app-routing --flat --module=app
+
+
+  http://localhost:3000/
+    Welcome to Node Cat Service
+
+  http://localhost:3000/cats/
+    no cats here!
+
+  http://localhost:3000/cats/api/cats
+    [{"name":"lilly"},{"name":"lucy"},{"name":"linda"},{"name":"layla"}]
+
+  http://localhost:3000/cats/api/cats/:fluffy
+    {"name":":fluffy"}
+

@@ -1,0 +1,40 @@
+
+To install on your home computer:
+Go to this web site:    https://www.virtualbox.org/wiki/Downloads
+and download and install Virtual Box for your computer type.
+After than is done, go to the same site and download and install its MATCHING version extensions,  VirtualBox Extension Pack.  Now you have a VM hosting environment at home.
+
+Now for both home and the school computer, you need an operating system to install.
+
+2020 fall version  (ISIT 422)
+
+To get the Linux we are going to use, go here and download the VM image
+
+
+https://drive.google.com/file/d/1hhvPnybcHNk3kdIYaaLQ_ezeO58MMY8-/view?usp=sharing
+
+
+
+
+That is a huge file, like about 6 gigabytes, and will take a few minutes. It will likely show up in your Download folder as a xxxxxx.OVA file.  When it is done, just double click on it, and it will install itself onto your Virtual Box Host.
+
+When it is done, start up the Virtual Box manager, click on the VM, and tell it to start.
+
+Two super important things you must do to prevent corrupting your Linux and having
+to start all over again:
+1) DO NOT try and change the window size that this Linux starts out with using any linux tools or commands.
+Instead, start it up, log in, then drag the lower right corner of the window to be bigger or smaller.  
+When it is the size you want, go to the lower right  corner and find the 0/1 power button, click it,
+and tell the system to restart.  Any other way of changing the window size may well make the 
+system unusable.
+
+2) Always shut down your Linux before leaving the class room or turning off your home
+computer.
+
+After you start it up, you can log into a pre-exiting account called bcuser
+the password is the same bcuser (later, when you want to do privileged operations,
+you will use a command called sudo, and it needs that same password).
+
+
+
+[ note for Kurt, this is on bckurtfriedrich@gmail.com gdrive ] 

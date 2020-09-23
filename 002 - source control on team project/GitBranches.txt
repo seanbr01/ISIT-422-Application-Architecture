@@ -1,0 +1,78 @@
+https://www.jquery-az.com/3-examples-of-git-create-new-branch/
+
+
+create new repo, Team-A , add team members as shared owners
+
+	Ask for the GitHUb username of the person you're inviting as a collaborator.
+	Under your repository name, click Settings.
+	In the left sidebar, click Collaborators.
+	Under "Collaborators", start typing the collaborator's username.
+	Select the collaborator's username from the drop-down menu.
+	Click Add collaborator.
+Notify that person to go to the corresponding email account for their GitHub, and accept the invitation.
+Then that person should go to GitHub, and again accept the invitation, and now they can check in code
+into the teams repo
+
+(The video of these steps is pretty good up until the end when the 2nd person tried to check a change
+into Sprint-1.  The 2nd user had failed to accept the invite, so the repo did not show up, and it would not allow
+me to check in until I did accept the invite both in their mail account and also at GitHub)
+
+under master, create new branch Sprint-1
+
+ Each team member will go to client and work on Sprint-1
+(only the very first time you will so a "clone"  after that you will use "pull"
+
+create a local folder, move into it, and ...
+
+git clone https://github.com/kurtfriedrichhotmail/Team-A.git
+
+git branch      // tells you what branch you are in
+
+git checkout Sprint-1    // tell git your changes should only be in this branch
+
+make changes / add files
+
+git add *
+
+git commit -a -m "adding new HTML page"
+
+  git push --set-upstream origin Sprint-1 --set      // push changes into Sprint-1, but not into master
+Notify the team, have them look at your changes so everyone knows what's going on, and can quickly
+spot a problem if 2 people are doing something that is incompatible.
+
+each person works in the Sprint-1 branch only
+
+so 2nd and 3rd team members will do the same thing.
+
+IF between when you did your clone (or later, a pull) and the time you want to do a push back to GitHub,
+someone has changed the same file, git will complain, you need to do a 
+git pull
+that will bring down the other team members changes made since the last time you did a clone or pull.
+
+For now, assume now conflicts.
+
+
+This goes on for a few days, each member making changes, and pushing them Sprint-1, and 
+doing a new git pull before working on their code to make sure the local copy is current.
+
+When all checkins are good and the team decides the sprint is done, then the GitHub master does a merge from 
+Sprint-1 into master.  and then no one ever changes the Sprint-1 branch.
+
+For the next sprint, the GitHub master makes a new brnach, Sprint-2 branch from master, and then 
+from each team member needs to do a 
+
+git checkout Sprint-2    // to make sure your changes go into the 2nd sprint branch
+
+Like before, everyone makes changes until the Sprint is done, the the GitHub master pulls Sprint-2 into master, 
+makes a new brand Sprint-3, and repeat all that again.
+
+(The video says there will be a follow on vid showing incompatible branches -- there is no such video, as all team members will work out of the same branch  (Sprint-1, or later Sprint-2, etc.)
+
+
+
+
+
+
+
+
+

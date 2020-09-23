@@ -1,0 +1,28 @@
+F1- Program plays against user
+	U1- As a User, I want to see the board and current status
+		T1- draw the opening, empty board
+		T2- Let the user pick who goes first
+		T3- After each move, update the screen
+	U2- As a User, I want color to make it clear and pleasing
+		T1- create 2 color schemes and let the user pick one
+	U3- As a User, I want to be able to place my next move
+		T1- Allow the computer to pick a sqaure and update the screen
+		T2- Allow the User to pick a square and update the screen
+	U4- As a User, I want to be able to quit the game at any time
+		T1- provide a quit button, and exit the game
+		T2- use an "are you sure" popup
+
+F2- Program tracks total wins and loses
+	U1- As a User, I want to know if I have won, tied, or lost
+		T1- After each move, decide of the game is over
+		T2- If the game is over, flash the screen with a "you won" or "you lost" message
+	U2- As a User, I want a tally of total wins and loses displayed
+		T1- After each game is complete, update a total of user wins, ties, and loses
+
+F3- Program has multiple difficulty levels
+	U1- As a User, I want to play against a not-to-clever computer
+		T1- Computer picks random, empty square
+	U2- As a User, I want to play against a somewhat clever computer
+		T1- Computer tries to place its move adjacent to an existing square that it owns
+	U3- As a User, I want to play against a computer that always makes the best move possible
+
