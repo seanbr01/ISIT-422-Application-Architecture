@@ -36,7 +36,7 @@ git add *
 
 git commit -a -m "adding new HTML page"
 
-  git push --set-upstream origin Sprint-1 --set      // push changes into Sprint-1, but not into master
+  git push --set-upstream origin Sprint-1      // push changes into Sprint-1, but not into master
 Notify the team, have them look at your changes so everyone knows what's going on, and can quickly
 spot a problem if 2 people are doing something that is incompatible.
 

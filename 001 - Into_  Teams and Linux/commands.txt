@@ -1,0 +1,20 @@
+ cd ISIT422/
+ 2002  cd Projects/
+ 2003  git clone https://github.com/kurtfriedrichhotmail/ISIT422-ToDo.git
+ 2005  cd ISIT422-ToDo/
+ 2007  npx express-generator --view=no NodeToDO
+2011  cd NodeToDO/
+ 2012  npm install
+ 2013  npm start
+
+ 2015  cd ..
+
+ 2017  git status
+ 2018  git add *
+ 2019  git status
+ 2020  git commit -m "add the base node project"
+ 2021  git config --global user.email "you@example.com"
+ 2022  git config --global user.email "kurtfriedrich@hotmail.com"
+ 2023  git config --global user.name "kurtfriedrichhotmail"
+ 2024  git commit -m "add the base node project"
+ 2027  git push

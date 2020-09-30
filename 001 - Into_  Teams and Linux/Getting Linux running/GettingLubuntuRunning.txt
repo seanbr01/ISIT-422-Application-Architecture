@@ -16,7 +16,8 @@ https://drive.google.com/file/d/1hhvPnybcHNk3kdIYaaLQ_ezeO58MMY8-/view?usp=shari
 
 
 
-That is a huge file, like about 6 gigabytes, and will take a few minutes. It will likely show up in your Download folder as a xxxxxx.OVA file.  When it is done, just double click on it, and it will install itself onto your Virtual Box Host.
+That is a huge file, like about 6 gigabytes, and will take a few minutes. It will likely show up in your Download folder as a xxxxxx.OVA file.
+When it is done, just double click on it, and it will install itself onto your Virtual Box Host.
 
 When it is done, start up the Virtual Box manager, click on the VM, and tell it to start.
 
