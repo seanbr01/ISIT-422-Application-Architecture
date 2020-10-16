@@ -6,8 +6,9 @@ https://docs.google.com/presentation/d/15l-jKz7Koiy0HwROuUShxd6cU1Hy9AeCN8crRe5w
 
 https://docs.google.com/presentation/d/1CJBdy8FA9z8w-Stc0riNCiDSGHD06V4q7287dHY3mtY/edit?usp=sharing
 
-Now we will marry out angular front end to our node backend.
+Then go on to 
 
+https://angular.io/tutorial
 
 =========================
 

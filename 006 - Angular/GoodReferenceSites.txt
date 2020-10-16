@@ -1,0 +1,19 @@
+﻿https://malcoded.com/posts/angular-backend-express/
+Is good, and covers things we need to know about an Angular client making calls to get data from a 
+server,  but it relies on mlab mongo, which is gone … 
+BUT: it also talks about CORS, which is an important concept we will have to come back to.
+
+https://www.zeolearn.com/magazine/designing-a-rest-api-with-nodejs-and-mongodb-atlas
+This article builds a working node server that knows how to talk to mongodb-atlas.
+But that article does not use express to build a node.js server, instead it builds it up in steps, as needed. 
+I like that, as it is more clear what a node server app really is made of. So it's a good read to better understand node. It also uses a good architectural layout of the code.
+Also, the article does not use the node Router module, it just hard codes routes in app.js.  I did not like that.
+
+
+https://www.javatpoint.com/angular-7-tutorial
+Excellent site with detailed explanations of pretty much everything
+
+
+Site we will work though, evolve to use mongo, and be your example application to help you code your course project
+https://angular.io/tutorial  (tour of heros)
+
